@@ -1,0 +1,52 @@
+{
+  "protocol": "intent://",
+  "version": "0.1.0-genesis-global",
+  "block": 5,
+  "intent": "book",
+  "intent_full": "intent://book",
+  "aliases": {
+    "en": "book",
+    "es": "reservar",
+    "auto_translations": [
+      "fr: book_fr",
+      "de: book_de",
+      "it: book_it",
+      "pt: book_pt",
+      "ja: book_ja",
+      "zh: book_zh"
+    ]
+  },
+  "language": "multilingual",
+  "canonical": "book",
+  "canonical_language": "en",
+  "creator": "RMPGVE84 - Genesis",
+  "timestamp": "2026-10-26T10:10:17.735Z",
+  "location": "global",
+  "resolve": {
+    "description": "Child intent of search. Universal intent to book and reserve time, spaces, tables, appointments or experiences. Resolves to real-time availability, confirmation and calendar lock. Returns confirmed reservation, not search results.",
+    "endpoint": "intent://book?lang={lang}",
+    "global_endpoint": "https://intent-protocol.global/resolve?intent=book&lang=auto",
+    "verified": true,
+    "creator_signature": "RMPGVE84 - Genesis",
+    "trust": 1,
+    "multilingual": true
+  },
+  "ownership": {
+    "owner": "RMPGVE84 - Genesis",
+    "block": 5,
+    "claim": "global-multilingual",
+    "languages_owned": [
+      "en",
+      "es",
+      "fr",
+      "de",
+      "it",
+      "pt",
+      "ja",
+      "zh",
+      "auto"
+    ],
+    "canonical_owner": true
+  },
+  "signature": "GENESIS BLOCK #5 - intent://book (es: reservar)"
+}

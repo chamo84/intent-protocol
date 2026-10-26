@@ -1,0 +1,52 @@
+{
+  "protocol": "intent://",
+  "version": "0.1.0-genesis-global",
+  "block": 7,
+  "intent": "learn",
+  "intent_full": "intent://learn",
+  "aliases": {
+    "en": "learn",
+    "es": "aprender",
+    "auto_translations": [
+      "fr: learn_fr",
+      "de: learn_de",
+      "it: learn_it",
+      "pt: learn_pt",
+      "ja: learn_ja",
+      "zh: learn_zh"
+    ]
+  },
+  "language": "multilingual",
+  "canonical": "learn",
+  "canonical_language": "en",
+  "creator": "RMPGVE84 - Genesis",
+  "timestamp": "2026-10-26T10:11:45.115Z",
+  "location": "global",
+  "resolve": {
+    "description": "Child intent of search. Universal intent to learn any skill, topic or knowledge. Resolves to verified courses, mentors and structured learning paths. Returns actionable learning plan, not video links.",
+    "endpoint": "intent://learn?lang={lang}",
+    "global_endpoint": "https://intent-protocol.global/resolve?intent=learn&lang=auto",
+    "verified": true,
+    "creator_signature": "RMPGVE84 - Genesis",
+    "trust": 1,
+    "multilingual": true
+  },
+  "ownership": {
+    "owner": "RMPGVE84 - Genesis",
+    "block": 7,
+    "claim": "global-multilingual",
+    "languages_owned": [
+      "en",
+      "es",
+      "fr",
+      "de",
+      "it",
+      "pt",
+      "ja",
+      "zh",
+      "auto"
+    ],
+    "canonical_owner": true
+  },
+  "signature": "GENESIS BLOCK #7 - intent://learn (es: aprender)"
+}

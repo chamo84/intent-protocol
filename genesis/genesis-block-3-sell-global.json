@@ -1,0 +1,52 @@
+{
+  "protocol": "intent://",
+  "version": "0.1.0-genesis-global",
+  "block": 3,
+  "intent": "sell",
+  "intent_full": "intent://sell",
+  "aliases": {
+    "en": "sell",
+    "es": "vender",
+    "auto_translations": [
+      "fr: sell_fr",
+      "de: sell_de",
+      "it: sell_it",
+      "pt: sell_pt",
+      "ja: sell_ja",
+      "zh: sell_zh"
+    ]
+  },
+  "language": "multilingual",
+  "canonical": "sell",
+  "canonical_language": "en",
+  "creator": "RMPGVE84 - Genesis",
+  "timestamp": "2026-10-26T10:08:33.991Z",
+  "location": "global",
+  "resolve": {
+    "description": "Child intent of search. Universal intent to list and sell any asset, product, service or skill. Resolves to verified buyers, marketplace exposure and automated transaction. Returns qualified buyers, not listing links.",
+    "endpoint": "intent://sell?lang={lang}",
+    "global_endpoint": "https://intent-protocol.global/resolve?intent=sell&lang=auto",
+    "verified": true,
+    "creator_signature": "RMPGVE84 - Genesis",
+    "trust": 1,
+    "multilingual": true
+  },
+  "ownership": {
+    "owner": "RMPGVE84 - Genesis",
+    "block": 3,
+    "claim": "global-multilingual",
+    "languages_owned": [
+      "en",
+      "es",
+      "fr",
+      "de",
+      "it",
+      "pt",
+      "ja",
+      "zh",
+      "auto"
+    ],
+    "canonical_owner": true
+  },
+  "signature": "GENESIS BLOCK #3 - intent://sell (es: vender)"
+}

@@ -1,0 +1,52 @@
+{
+  "protocol": "intent://",
+  "version": "0.1.0-genesis-global",
+  "block": 2,
+  "intent": "buy",
+  "intent_full": "intent://buy",
+  "aliases": {
+    "en": "buy",
+    "es": "comprar",
+    "auto_translations": [
+      "fr: buy_fr",
+      "de: buy_de",
+      "it: buy_it",
+      "pt: buy_pt",
+      "ja: buy_ja",
+      "zh: buy_zh"
+    ]
+  },
+  "language": "multilingual",
+  "canonical": "buy",
+  "canonical_language": "en",
+  "creator": "RMPGVE84 - Genesis",
+  "timestamp": "2026-10-26T10:07:32.100Z",
+  "location": "global",
+  "resolve": {
+    "description": "Child intent of search. Universal intent to purchase any product or service, physical or digital. Resolves to verified seller, price, delivery and secure payment via intent://pay. Returns actionable purchase, not product links.",
+    "endpoint": "intent://buy?lang={lang}",
+    "global_endpoint": "https://intent-protocol.global/resolve?intent=buy&lang=auto",
+    "verified": true,
+    "creator_signature": "RMPGVE84 - Genesis",
+    "trust": 1,
+    "multilingual": true
+  },
+  "ownership": {
+    "owner": "RMPGVE84 - Genesis",
+    "block": 2,
+    "claim": "global-multilingual",
+    "languages_owned": [
+      "en",
+      "es",
+      "fr",
+      "de",
+      "it",
+      "pt",
+      "ja",
+      "zh",
+      "auto"
+    ],
+    "canonical_owner": true
+  },
+  "signature": "GENESIS BLOCK #2 - intent://buy (es: comprar)"
+}

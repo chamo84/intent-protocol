@@ -1,0 +1,52 @@
+{
+  "protocol": "intent://",
+  "version": "0.1.0-genesis-global",
+  "block": 4,
+  "intent": "rent",
+  "intent_full": "intent://rent",
+  "aliases": {
+    "en": "rent",
+    "es": "alquilar",
+    "auto_translations": [
+      "fr: rent_fr",
+      "de: rent_de",
+      "it: rent_it",
+      "pt: rent_pt",
+      "ja: rent_ja",
+      "zh: rent_zh"
+    ]
+  },
+  "language": "multilingual",
+  "canonical": "rent",
+  "canonical_language": "en",
+  "creator": "RMPGVE84 - Genesis",
+  "timestamp": "2026-10-26T10:09:32.363Z",
+  "location": "global",
+  "resolve": {
+    "description": "Child intent of search. Universal intent to rent any asset for temporary use - housing, vehicles, equipment, spaces. Resolves to availability, verified owner, contract and payment. Returns ready-to-rent options with dates.",
+    "endpoint": "intent://rent?lang={lang}",
+    "global_endpoint": "https://intent-protocol.global/resolve?intent=rent&lang=auto",
+    "verified": true,
+    "creator_signature": "RMPGVE84 - Genesis",
+    "trust": 1,
+    "multilingual": true
+  },
+  "ownership": {
+    "owner": "RMPGVE84 - Genesis",
+    "block": 4,
+    "claim": "global-multilingual",
+    "languages_owned": [
+      "en",
+      "es",
+      "fr",
+      "de",
+      "it",
+      "pt",
+      "ja",
+      "zh",
+      "auto"
+    ],
+    "canonical_owner": true
+  },
+  "signature": "GENESIS BLOCK #4 - intent://rent (es: alquilar)"
+}
