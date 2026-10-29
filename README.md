@@ -4,7 +4,7 @@
 
 > La web es para humanos. Nobotia protege del bot malo, intent:// habilita al bot bueno.
 
-**CID:** `bafybeie7p4bh6xpnpk3cdi4kdfztqjw1bppwmfkibuhctx7vmbrohz12ua`
+**CID:** `bafybeie7p4bh6xpnpk3cdi4kdfztqjwlbppwmfkibuhctx7vmbrohz12ua`
 **Creado:** 26/10/2026 - Barcelona, España
 **Fundador:** RMPGVE84
 **Live:** https://nobotia.com/protocol
