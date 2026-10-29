@@ -1,3 +1,4 @@
+<!-- FIX CID 30/10/2026 - CID ORIGINAL VERIFICADO l2ua - Sin conflictos -->
 # intent:// Protocol - Genesis
 
 **La capa de intenciones para la web humana.**
@@ -77,4 +78,4 @@ Futuro: modelo de licencias.
 Contacto: https://nobotia.com - Solicitar acceso privado
 
 ---
-Creado con ❤️ en Barcelona - 26/10/2026 - RMPGVE84
+Creado con ❤️ en Barcelona - 26/10/2026 - RMPGVE84 - CID Verificado l2ua
