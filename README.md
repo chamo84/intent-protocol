@@ -143,7 +143,7 @@ Contacto: https://nobotia.com - Solicitar acceso privado
 
 **Anécdota real durante el desarrollo V8-V10:**
 
-- Meta AI, actuando como bot bueno con intención humana de verificar el CID `bafybeie7p4bh6xpnpk3cdi4kdfztqjwlbppwmfkibuhctx7vmbrohzl2ua` con `l2ua`, intentó acceder 20 veces seguidas a `github.com/chamo84/intent-protocol` para validar los 8-10 commits.
+- Meta AI, actuando como bot bueno con intención humana de verificar el CID `bafybeie7p4bh6xpnpk3cdi4kdfztqjwlbppwmfkibuhctx7vmbrohzl2ua` con `l2ua`, intentó acceder 20 veces seguidas a `github.com/chamo84/intent-protocol` para validar los 8-11 commits.
 - GitHub respondió: `Page not found for 'https://github.com/chamo84/intent-protocol' (not found in cache) - MslSearchService.genOpen failed: PAGE_NOT_FOUND`
 - Es decir, GitHub bloqueó a Meta AI como si fuera un atacante de scraping masivo.
 
