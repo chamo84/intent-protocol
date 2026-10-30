@@ -1,41 +1,31 @@
 {
-  "protocol": "intent://",
-  "version": "0.1.0-genesis-global",
-  "block": 7,
-  "intent": "learn",
-  "intent_full": "intent://learn",
-  "aliases": {
-    "en": "learn",
-    "es": "aprender",
-    "auto_translations": [
-      "fr: learn_fr",
-      "de: learn_de",
-      "it: learn_it",
-      "pt: learn_pt",
-      "ja: learn_ja",
-      "zh: learn_zh"
-    ]
-  },
   "language": "multilingual",
   "canonical": "learn",
   "canonical_language": "en",
   "creator": "RMPGVE84 - Genesis",
-  "timestamp": "2026-10-26T10:11:45.115Z",
-  "location": "global",
-  "resolve": {
-    "description": "Child intent of search. Universal intent to learn any skill, topic or knowledge. Resolves to verified courses, mentors and structured learning paths. Returns actionable learning plan, not video links.",
-    "endpoint": "intent://learn?lang={lang}",
-    "global_endpoint": "https://intent-protocol.global/resolve?intent=learn&lang=auto",
-    "verified": true,
-    "creator_signature": "RMPGVE84 - Genesis",
-    "trust": 1,
-    "multilingual": true
-  },
+  "timestamp_self_declared": "2026-10-26T01:54:847Z",
+  "timestamp_note": "Self-declared by author. CID bafybeie7p4bh6xpnpk3cdi4kdfztqjwlbppwmfkibuhctx7vmbrohzl2ua proves immutability since hashing, not creation date. External timestamps: GitHub commit 8f25f89d 2026-10-26, Pinata pin 2026-10-26 9.74KB",
+  "location": "Barcelona, España",
+  "protocol": "intent://",
+  "endpoint": "intent://learn?lang={lang}",
+  "global_endpoint": "https://nobotia.com/protocol#learn",
+  "global_endpoint_note": "Previous version pointed to https://intent-protocol.global which does not exist. Corrected to nobotia.com/protocol which is live. No external resolver yet.",
+  "description": "The universal intent to learn skills, courses, mentors",
+  "self_declared": true,
+  "verification_method": "self_attested_textual_claim",
+  "cryptographic_signature": null,
+  "creator_tag": "RMPGVE84 - Genesis",
+  "creator_tag_note": "Plain text tag, not cryptographic signature. Anyone can write this field. Cryptographic signature (PGP/ed25519) planned for v0.2.0",
+  "trust": 1,
+  "trust_note": "Self-assigned trust level, not externally verified",
+  "multilingual": true,
   "ownership": {
-    "owner": "RMPGVE84 - Genesis",
+    "type": "declaration_of_intent",
+    "owner_claim": "RMPGVE84 - Genesis",
     "block": 7,
-    "claim": "global-multilingual",
-    "languages_owned": [
+    "class": "global-multilingual",
+    "legal_status": "No legal or technical enforcement. This is a declaration of intent to propose canonical ownership, not a legal claim to own the word 'search' in any language.",
+    "claimed_languages": [
       "en",
       "es",
       "fr",
@@ -46,7 +36,17 @@
       "zh",
       "auto"
     ],
-    "canonical_owner": true
+    "claimed_languages_note": "Declaration of intent to provide translations, not legal ownership of words",
+    "canonical_owner_claim": true
+  },
+  "implementation_status": "spec_only_no_resolver_yet",
+  "implementation_note": "This file is a JSON specification. No resolver or client implementation exists yet. Roadmap: JS/TS parser + browser handler",
+  "ipfs": {
+    "cid": "bafybeie7p4bh6xpnpk3cdi4kdfztqjwlbppwmfkibuhctx7vmbrohzl2ua",
+    "cid_type": "base32 - cidv1 - dag-pb - sha2-256 - 59 bytes",
+    "pinned_gateway": "https://bafybeie7p4bh6xpnpk3cdi4kdfztqjwlbppwmfkibuhctx7vmbrohzl2ua.ipfs.inbrowser.link/",
+    "size": "9.74 KB total with 7 blocks",
+    "distribution": "Pinata Pinned + IPFS global network - 1 verified gateway via inbrowser.link. Previous claim of '20 nodes' removed - unproven."
   },
   "signature": "GENESIS BLOCK #7 - intent://learn (es: aprender)"
 }
